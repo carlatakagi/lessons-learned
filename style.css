@@ -1,0 +1,121 @@
+/*line-height
+colocar tabela - pensar o que colocar nela
+codesniffer
+posicionar artigo e seção aprendizdos um ao lado do outro 
+utilizando lado-esquerdo e lado-direito
+*/
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  color: rgb(73, 27, 110);
+  font-family: "Helvetica Neue", sans-serif;
+  border: 1px solid;
+}
+
+
+/*HEADER*/
+#cabecalho {
+    background-color: rgb(54, 192, 151);
+    top: 0;
+    padding: 10px;
+    position: fixed;
+    border: 1px solid;
+    width: 100%;
+}
+
+#titulo {
+  text-align: center;
+}
+
+#titulo h1 {
+  font-size: 2.5rem;
+}
+
+#titulo a {
+  text-decoration: none;
+  color: rgb(73, 27, 110);
+}
+
+.menu {
+  text-align: left;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;  
+  border-radius: 0.2rem;
+}
+
+
+.menu ul li {
+  font-size: 1rem;
+  list-style-type: none; 
+  display: inline-block;
+  padding-left: 10px; 
+}
+
+/*ARTICLE*/
+main {
+  margin: 15px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+#minha_foto {
+  width: 20%;
+  margin-top: 100px;
+  border-radius: 0.5rem;
+}
+
+.container {
+  border: 1px solid;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  margin-right: 50%;
+  padding: 10px;  
+  display: inline-block;
+}
+
+.container p {
+  font-size: 1.15rem;
+  margin-left: 25%;
+  margin-right: 5%;
+}
+
+
+/*SECTION SKILLS*/
+h3 {
+  font-size: 1.25rem;
+}
+
+.skills {
+  border: 1px solid;
+  display: inline-block;
+}
+
+#licoes_aprendidas {
+  font-size: 1rem;
+}
+
+#licoes_a_aprender {
+  font-size: 1rem;
+}
+
+/*ASIDE*/
+aside {
+  border: 1px solid;
+}
+
+/*FOOTER*/
+
+#rodape {
+  padding: 20px;
+  text-align: center;
+}
