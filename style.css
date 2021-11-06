@@ -1,8 +1,8 @@
-/*line-height
+/*
 colocar tabela - pensar o que colocar nela
 codesniffer
-posicionar artigo e seção aprendizdos um ao lado do outro 
-utilizando lado-esquerdo e lado-direito
+mudar info aside
+tirar os comentários depois
 */
 
 * {
@@ -12,109 +12,114 @@ utilizando lado-esquerdo e lado-direito
 body {
   background-color: rgb(253, 251, 251);
   color: rgb(73, 27, 110);
-  font-family: "Helvetica Neue", sans-serif;
-  border: 1px solid;
+  font-family: Helvetica Neue, sans-serif;
 }
 
-
-/*HEADER*/
+/* HEADER */
 #cabecalho {
-    background-color: rgb(54, 192, 151);
-    top: 0;
-    padding: 10px;
-    position: fixed;
-    border: 1px solid;
-    width: 100%;
+  background-color: rgb(54, 192, 151);
+  top: 0;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
 }
 
 #titulo {
   text-align: center;
-}
-
-#titulo h1 {
   font-size: 2.5rem;
 }
 
 #titulo a {
   text-decoration: none;
+}
+
+#titulo a:visited {
   color: rgb(73, 27, 110);
 }
 
 .menu {
   text-align: left;
   border: 1px solid;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;  
-  border-radius: 0.2rem;
+  margin: 10px;
+  padding: 10px;
+  width: 95%;
 }
-
 
 .menu ul li {
   font-size: 1rem;
-  list-style-type: none; 
+  list-style-type: none;
   display: inline-block;
-  padding-left: 10px; 
+  margin-left: 20px;
+  padding: 3px;
 }
 
-/*ARTICLE*/
 main {
-  margin: 15px;
+  margin: 15% auto 0;
   padding: 10px;
 }
 
-h2 {
-  font-size: 1.5rem;
-  text-align: left;
-}
-
-#minha_foto {
+.avatar #minha_foto {
   width: 20%;
-  margin-top: 100px;
   border-radius: 0.5rem;
 }
 
-.container {
+/* SECTION SKILLS */
+.skills {
+  display: flex;
+  margin-top: 5%;
+}
+
+.skills-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+#licoes_aprendidas li {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+#licoes_a_aprender li {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+/* INFO */
+.info {
+  width: 100%;
   border: 1px solid;
   margin-top: 120px;
   margin-bottom: 20px;
   margin-right: 50%;
-  padding: 10px;  
+  padding: 10px;
   display: inline-block;
 }
 
-.container p {
+.info h2 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.info p {
   font-size: 1.15rem;
   margin-left: 25%;
   margin-right: 5%;
+  line-height: 1.5rem;
 }
 
-
-/*SECTION SKILLS*/
-h3 {
-  font-size: 1.25rem;
+/* ARTICLE */
+.info .lado-esquerdo {
+  float: left;
+  width: 50%;
 }
 
-.skills {
-  border: 1px solid;
-  display: inline-block;
+/* ASIDE */
+.info .lado-direito {
+  float: right;
+  width: 50%;
 }
 
-#licoes_aprendidas {
-  font-size: 1rem;
-}
-
-#licoes_a_aprender {
-  font-size: 1rem;
-}
-
-/*ASIDE*/
-aside {
-  border: 1px solid;
-}
-
-/*FOOTER*/
-
+/* FOOTER */
 #rodape {
   padding: 20px;
   text-align: center;
