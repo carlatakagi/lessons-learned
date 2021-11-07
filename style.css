@@ -1,6 +1,5 @@
 /*
 colocar tabela - pensar o que colocar nela
-codesniffer
 mudar info aside
 tirar os comentários depois
 */
@@ -29,14 +28,6 @@ body {
   font-size: 2.5rem;
 }
 
-#titulo a {
-  text-decoration: none;
-}
-
-#titulo a:visited {
-  color: rgb(73, 27, 110);
-}
-
 .menu {
   text-align: left;
   border: 1px solid;
@@ -63,6 +54,26 @@ main {
   border-radius: 0.5rem;
 }
 
+.table {
+  padding-top: 10px;
+  width: 50%;
+  font-size: 0.85rem;
+}
+
+.table caption {
+  font-style: italic;
+  text-align: center;
+}
+
+.table tr {
+  text-align: center;
+  line-height: 1rem;
+}
+
+.table td {
+  margin-left: 15px;
+}
+
 /* SECTION SKILLS */
 .skills {
   display: flex;
@@ -87,7 +98,6 @@ main {
 /* INFO */
 .info {
   width: 100%;
-  border: 1px solid;
   margin-top: 120px;
   margin-bottom: 20px;
   margin-right: 50%;
@@ -98,13 +108,14 @@ main {
 .info h2 {
   font-size: 1.5rem;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .info p {
   font-size: 1.15rem;
-  margin-left: 25%;
   margin-right: 5%;
   line-height: 1.5rem;
+  text-align: left;
 }
 
 /* ARTICLE */
