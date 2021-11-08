@@ -1,9 +1,3 @@
-/*
-colocar tabela - pensar o que colocar nela
-mudar info aside
-tirar os comentários depois
-*/
-
 * {
   margin: 0;
 }
@@ -116,6 +110,10 @@ main {
   margin-right: 5%;
   line-height: 1.5rem;
   text-align: left;
+}
+
+.info a {
+  text-decoration: none;
 }
 
 /* ARTICLE */
